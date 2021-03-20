@@ -12,8 +12,8 @@ rm -rf feeds/packages/utils/runc
 rm -rf feeds/packages/utils/tini
 rm -rf feeds/packages/utils/docker-ce
 rm -rf feeds/packages/utils/docker-compose
+rm -rf feeds/packages/net/miniupnpd
 rm -rf package/lean/luci-app-docker
-
 
 svn co https://github.com/openwrt/packages/trunk/libs/libcap                                             feeds/packages/libs/libcap
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome                          package/adg
@@ -25,6 +25,7 @@ svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/runc        
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/tini                                 package/tini
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker                               package/docker
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/luci-app-dockerman                   package/luci-app-dockerman
+svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/miniupnpd                            package/miniupnpd
 
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede                                        package/luci-app-smartdns
 git clone https://github.com/hyird/Openwrt-AdguardHome.git                                               package/AdGuardHome
