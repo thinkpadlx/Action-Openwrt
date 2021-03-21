@@ -6,25 +6,12 @@ rm -rf feeds/packages/libs/libcap
 rm -rf package/feeds/routing/olsrd/patches/012-gpsd.patch
 rm -rf feeds/packages/net/smartdns
 rm -rf package/lean/luci-theme-argon
-rm -rf feeds/packages/utils/containerd
-rm -rf feeds/packages/utils/libnetwork
-rm -rf feeds/packages/utils/runc
-rm -rf feeds/packages/utils/tini
-rm -rf feeds/packages/utils/docker-ce
-rm -rf feeds/packages/utils/docker-compose
 rm -rf feeds/packages/net/miniupnpd
-rm -rf package/lean/luci-app-docker
+
 
 svn co https://github.com/openwrt/packages/trunk/libs/libcap                                             feeds/packages/libs/libcap
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome                          package/adg
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns                                     package/smartdns
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/dockerd                              package/dockerd
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/containerd                           package/containerd
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/libnetwork                           package/libnetwork
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/runc                                 package/runc
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/tini                                 package/tini
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/docker                               package/docker
-svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/luci-app-dockerman                   package/luci-app-dockerman
 svn co https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng/trunk/miniupnpd                            package/miniupnpd
 
 git clone https://github.com/pymumu/luci-app-smartdns.git -b lede                                        package/luci-app-smartdns
