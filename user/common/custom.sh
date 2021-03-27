@@ -27,6 +27,7 @@ git clone https://github.com/jerrykuku/lua-maxminddb.git                        
 git clone https://github.com/jerrykuku/luci-app-vssr.git                                                 package/luci-app-vssr
 git clone https://github.com/hyird/luci-theme-darkmatter.git		                                     package/luci-theme-darkmatter
 git clone https://github.com/garypang13/luci-app-dnsfilter.git                                           package/luci-app-dnsfilter
+git clone https://github.com/destan19/OpenAppFilter.git                                                  package/luci-app-oaf
 
 
 sed -i 's/DEPENDS.*/& \+adguardhome/g'  package/adg/Makefile
