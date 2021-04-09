@@ -8,7 +8,7 @@ rm -rf feeds/packages/net/smartdns
 rm -rf package/lean/luci-theme-argon
 
 
-svn co https://github.com/openwrt/openwrt/trunk/package/libs/libpcap                                     feeds/packages/libs/libcap
+svn co https://github.com/openwrt/openwrt/trunk/package/libs/libcap                                      feeds/packages/libs/libcap
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome                          package/adg
 svn co https://github.com/Lienol/openwrt-packages/trunk/net/smartdns                                     package/smartdns
 
@@ -25,7 +25,7 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomato.git                
 git clone https://github.com/jerrykuku/luci-app-argon-config.git                                         package/luci-app-argon-config
 git clone https://github.com/jerrykuku/lua-maxminddb.git                                                 package/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git                                                 package/luci-app-vssr
-git clone https://github.com/hyird/luci-theme-darkmatter.git		                                     package/luci-theme-darkmatter
+git clone https://github.com/hyird/luci-theme-darkmatter.git		                                         package/luci-theme-darkmatter
 git clone https://github.com/garypang13/luci-app-dnsfilter.git                                           package/luci-app-dnsfilter
 git clone https://github.com/destan19/OpenAppFilter.git                                                  package/luci-app-oaf
 
