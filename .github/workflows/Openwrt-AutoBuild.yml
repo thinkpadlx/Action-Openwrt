@@ -212,4 +212,4 @@ jobs:
                
     - name: WeChat notification
       if: env.WECHAT_NOTIFICATION == 'true' && !cancelled() && steps.compile.outputs.status == 'success'
-      run: curl https://sc.ftqq.com/${{ secrets.SCKEY }}.send?text=${{matrix.target}}编译完成
+      run: echo "ok"
